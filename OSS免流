@@ -1,1 +1,155 @@
-<mxfile host="app.diagrams.net" modified="2023-03-19T09:49:35.274Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.8" etag="VHgZ5YVTZMw783H3bu-0" type="github"><diagram name="第 1 页" id="PXByRZfAwq96UDgw0cDF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-19T10:07:45.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="quSjyacWj7cgao-CTgYi" version="21.0.8" type="github">
+  <diagram name="第 1 页" id="PXByRZfAwq96UDgw0cDF">
+    <mxGraphModel dx="1562" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VJurAAP5m_wcglIB90qR-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="51" y="40" width="729" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-2" value="Before" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="51" y="40" width="56" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="67" y="260" width="410" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-3" value="OSS" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server_storage;" vertex="1" parent="1">
+          <mxGeometry x="340.75" y="287.5" width="72.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-4" value="阿里云服务器" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
+          <mxGeometry x="127" y="287.5" width="115" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="VJurAAP5m_wcglIB90qR-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="583.62" y="190" as="sourcePoint" />
+            <mxPoint x="521.0018181818183" y="292.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-23" value="访问静态资源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VJurAAP5m_wcglIB90qR-18">
+          <mxGeometry x="-0.2476" y="3" relative="1" as="geometry">
+            <mxPoint x="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VJurAAP5m_wcglIB90qR-17" target="VJurAAP5m_wcglIB90qR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-22" value="访问网站页面" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VJurAAP5m_wcglIB90qR-19">
+          <mxGeometry x="-0.1255" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="411" y="80" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-5" value="用户A" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="421" y="90" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VJurAAP5m_wcglIB90qR-6" target="VJurAAP5m_wcglIB90qR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-21" value="维护网站" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VJurAAP5m_wcglIB90qR-10">
+          <mxGeometry x="-0.1902" y="-2" relative="1" as="geometry">
+            <mxPoint x="-17" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VJurAAP5m_wcglIB90qR-6" target="VJurAAP5m_wcglIB90qR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-20" value="上传网站资源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VJurAAP5m_wcglIB90qR-11">
+          <mxGeometry x="-0.2958" relative="1" as="geometry">
+            <mxPoint x="33" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-6" value="管理员" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="87" y="100" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-7" value="用户B" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="531" y="90" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-8" value="用户C" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="641" y="90" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-24" value="公网环境" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="267" y="120" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-25" value="阿里云内网环境" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="67" y="260" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-26" value="1. 管理员上传资源免费，然后在网站中放入静态资源的OSS地址&lt;br&gt;2. 每个用户直连OSS访问静态资源计流收费&lt;br&gt;3. 网站页面走服务器带宽，静态资源走OSS带宽，对服务器带宽压力小，网站加载速度快&lt;br&gt;4. 服务器和OSS虽然同处内网环境，但没有直接数据交流" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="498" y="265" width="243" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="51" y="410" width="729" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-29" value="After" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="51" y="410" width="56" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="67" y="630" width="410" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-31" value="OSS" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server_storage;" vertex="1" parent="1">
+          <mxGeometry x="357" y="677.5" width="72.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VJurAAP5m_wcglIB90qR-32" target="VJurAAP5m_wcglIB90qR-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-50" value="代理访问静态资源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VJurAAP5m_wcglIB90qR-49">
+          <mxGeometry x="-0.2338" y="-1" relative="1" as="geometry">
+            <mxPoint x="16" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-32" value="阿里云服务器" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
+          <mxGeometry x="107" y="670" width="115" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VJurAAP5m_wcglIB90qR-37" target="VJurAAP5m_wcglIB90qR-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-36" value="访问网站页面和静态资源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VJurAAP5m_wcglIB90qR-35">
+          <mxGeometry x="-0.1255" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="411" y="450" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-38" value="用户A" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="421" y="460" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VJurAAP5m_wcglIB90qR-43" target="VJurAAP5m_wcglIB90qR-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-40" value="维护网站" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VJurAAP5m_wcglIB90qR-39">
+          <mxGeometry x="-0.1902" y="-2" relative="1" as="geometry">
+            <mxPoint x="-17" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VJurAAP5m_wcglIB90qR-43" target="VJurAAP5m_wcglIB90qR-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-42" value="上传网站资源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VJurAAP5m_wcglIB90qR-41">
+          <mxGeometry x="-0.2958" relative="1" as="geometry">
+            <mxPoint x="33" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-43" value="管理员" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="87" y="470" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-44" value="用户B" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="531" y="460" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-45" value="用户C" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="641" y="460" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-46" value="公网环境" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="267" y="490" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-47" value="阿里云内网环境" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="67" y="630" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VJurAAP5m_wcglIB90qR-48" value="1. 管理员上传资源免费，然后在网站中放入静态资源的OSS的&lt;font color=&quot;#ff0000&quot;&gt;代理&lt;/font&gt;地址&lt;br&gt;2. 服务器代理访问OSS静态资源流量免费&lt;br&gt;3. 网站页面和静态资源都走服务器带宽，对服务器带宽压力大，网站加载速度随同时访问用户数增多而变慢，但是博客之类的网站访问量小，不用担心这个问题&lt;br&gt;4. 服务器通过内网访问OSS，可以认为内网速度不会造成瓶颈；瓶颈由服务器带宽、同时访问的用户数和用户使用的设备带宽决定" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="498" y="630" width="242" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
